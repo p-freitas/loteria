@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Ubuntu&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #000000;
+}
+
+.ant-typography {
+  color: white !important;
+  text-align: center;
+}
+
+.container-all {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background: #000000;
+}
+
+.main-container {
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+
+.footer-container {
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-line {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 0.8rem;
+  color: #F8F8FF;
+
+}
+
+.footer-link-container {
+  width: 10vw;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.footer-link {
+  list-style: none;
+}
+
+.footer-icon {
+  width: 25px;
+  height: 25px;
+
+  transition: .4s;
+}
+
+.footer-icon:hover {
+  transform: scale(1.3);
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result {
+  border: 1px solid white;
+  display: flex;
+  color: white;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+.qnt {
+  margin: 10% 0 0;
+}
+
+.numbers {
+  display: flex;
+  margin: 10% 0;
+}
+
+.number {
+  margin: 5px;
+  border: 1px solid;
+  padding: 4px;
+}
