@@ -19,7 +19,7 @@ export default function Main() {
     }
 
     if (values.sorteados.indexOf(" ") >= 0) {
-      console.log("espaços sorteados");
+      sorteados = values.sorteados.split(/\s+/);
     } else {
       sorteados = values.sorteados.match(/.{1,2}/g);
     }
