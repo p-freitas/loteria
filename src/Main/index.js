@@ -37,6 +37,7 @@ export default function Main() {
 
           <Form onFinish={onFinish} name="loteria" form={form}>
             <div className="inputs">
+            <Typography>Números apostados: </Typography>
               <Form.Item
                 name="apostados"
                 rules={[
@@ -45,13 +46,14 @@ export default function Main() {
               >
                 <Input placeholder="Números apostados" style={{ width: 250 }} />
               </Form.Item>
+              <Typography>Números sorteados: </Typography>
               <Form.Item
                 name="sorteados"
                 rules={[
                   { required: true, message: "Digite os números sorteados" },
                 ]}
               >
-                <Input placeholder="Números sorteados" style={{ width: 250 }} />
+                <Input  placeholder="Números sorteados" style={{ width: 250 }} />
               </Form.Item>
               <Button size="large" htmlType="submit">
                 Verificar
@@ -73,7 +75,7 @@ export default function Main() {
         </div>
       </main>
       <footer className="footer-container">
-        <p className="footer-line">Made by Pedro Freitas</p>
+        <p className="footer-line">Feito por Pedro Freitas</p>
         <ul className="footer-link-container">
           <li className="footer-link">
             <a href="https://github.com/p-freitas">

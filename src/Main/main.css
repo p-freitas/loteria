@@ -43,11 +43,11 @@ body {
 }
 
 .footer-container {
-  height: 15vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  margin-top: 5%;
 }
 
 .footer-line {
